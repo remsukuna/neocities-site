@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>you're not welcome here</title>
+    <title>hello yesyes</title>
     <style>
       p {
         font-family: "Times New Roman", serif;
@@ -28,8 +28,8 @@
                 <div id="header"></div>
                 <nav id="navbar">
                     <ul>
-                        <li><a href="#">go home</a></li>
-                        <li><a href="#">Link</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=8YpLYpS0C80">///</a></li>
+                        <li><a href="https://remsukuna.neocities.org/not_found">???</a></li>
                         <li><a href="#">Link</a></li>
                         <li><a href="#">Link</a></li>
                         <li><a href="#">Link</a></li>
@@ -42,6 +42,7 @@
                 <aside>
                     <h2>updates</h2>
                     <div class="box">
+                        <p>09/25/25<p>
                         <p>how do i work this thing?</p>
                         <ul style="padding-left:10px;">
                             <li>meow !!</li>
@@ -51,6 +52,7 @@
                     <h3>my links:</h3>
                     <ul>
                         <li><a href="https://www.tumblr.com/kamoscurse" target="_blank">tumblr acc</a>
+                        <li><a href=" " target="_blank">guestbook</a>
                     </ul>
                 </aside>
                 <main>
@@ -62,7 +64,10 @@
                     <p>alright bye!</p>
 
                     <h3><p> - about - </p></h3>
-                    <p>i hope this site ends up leaning toward a more darker vibe! still in the process.</p>
+                    <p>i hope this site ends up leaning toward a more darker vibe! still in the process of figuring this all out.</p>
+                    <p>fav anime: jjk, sakadays, nana, tshd, and blue lock (among others! ask me!)
+                    <p>shows: hannibal + skins<p>
+                    <p> i love reading, writing, journaling, gaming, and drawing (very much amateur and inconsistent...)
                     <p>don't get lost now...</p>
 
 
@@ -82,8 +87,8 @@
     the images as variables */
 
             :root {
-                --header-image: url('https://sadhost.neocities.org/images/layouts/wp.jpeg');
-                --body-bg-image: url('https://sadhost.neocities.org/images/tiles/purplesky.gif');
+                --header-image: url('https://i.pinimg.com/736x/f8/69/dd/f869dd34db8bbba8a3daa4ae39232bc0.jpg');
+                --body-bg-image: url('https://i.pinimg.com/736x/8f/c3/30/8fc33037a15f10075815b5aeae35fcb0.jpg');
 
                 /* colors */
                 --content: #fff;
@@ -127,11 +132,11 @@
             body {
                 font-family: 'Times New Roman', serif;
                 margin: 0;
-                background-color: #fff;
+                background-color: #210a07
+                ;
                 /* you can delete the line below if you'd prefer to not use an image */
-                background-size: 65px;
                 color: #fff;
-                background-image: var(--body-bg-image);
+                background-size: 60px;
             }
 
             * {
@@ -145,7 +150,7 @@
     the other elements, you will need to move that div outside
     of the container */
             #container {
-                max-width: 900px;
+                max-width: 850px;
                 /* this is the width of your layout! */
                 /* if you change the above value, scroll to the bottom
       and change the media query according to the comment! */
@@ -167,7 +172,7 @@
                 width: 100%;
                 background-color: #000;
                 /* header color here! */
-                height: 150px;
+                height: 350px;
                 /* this is only for a background image! */
                 /* if you want to put images IN the header, 
       you can add them directly to the <div id="header"></div> element! */
@@ -301,7 +306,7 @@
     "max-width" value below
     */
 
-            @media only screen and (max-width: 800px) {
+            @media only screen and (max-width: 750px) {
                 #flex {
                     flex-wrap: wrap;
                 }
@@ -331,7 +336,5 @@
                 }
             }
         </style>
-
-    <a href="https://remsukuna.neocities.org/not_found">hidden??</a>
   </body>
 </html>
